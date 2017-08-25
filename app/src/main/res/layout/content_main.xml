@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.codetribe.tourguide.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <!--TextView
+            android:id="@+id/dessc"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:text="Polokwane is the capital city of Limpopo, and has a vibrant mix of people and culture. Polokwane has great restaurants, art galleries,museums, jazz clubs and shopping centres. It's also called the gateway city because it's a stepping stone to a diversity of natural attractions from mountains to wilderness areas."
+            android:textAllCaps="false"
+            android:textColor="@android:color/black" !-->
+    </LinearLayout>
+</RelativeLayout>
